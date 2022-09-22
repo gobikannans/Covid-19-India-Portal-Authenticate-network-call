@@ -1,0 +1,129 @@
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "chrstopher_phillips",
+  "password": "christy@123"
+}
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "chrsty@123"
+}
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+###
+GET http://localhost:3000/states/
+
+###
+GET http://localhost:3000/states/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjYzODc2NjM2fQ.i_QyGUsXCFD_L7_dMZHRUdu4zX7ljEcre2ZC0BfuY60
+
+
+
+###
+GET http://localhost:3000/states/5/
+
+###
+GET http://localhost:3000/states/5/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjYzODc2NjM2fQ.i_QyGUsXCFD_L7_dMZHRUdu4zX7ljEcre2ZC0BfuY60
+
+
+
+###
+POST http://localhost:3000/districts
+Content-Type: application/json
+
+
+{
+  "districtName": "Bagalkot",
+  "stateId": 3,
+  "cases": 2323,
+  "cured": 2000,
+  "active": 315,
+  "deaths": 8
+}
+
+###
+POST http://localhost:3000/districts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjYzODc2NjM2fQ.i_QyGUsXCFD_L7_dMZHRUdu4zX7ljEcre2ZC0BfuY60
+
+
+{
+  "districtName": "Bagalkot",
+  "stateId": 3,
+  "cases": 2323,
+  "cured": 2000,
+  "active": 315,
+  "deaths": 8
+}
+
+
+
+###
+GET http://localhost:3000/districts/50
+
+###
+GET http://localhost:3000/districts/50
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjYzODc2NjM2fQ.i_QyGUsXCFD_L7_dMZHRUdu4zX7ljEcre2ZC0BfuY60
+
+
+
+###
+DELETE http://localhost:3000/districts/2
+
+
+###
+DELETE http://localhost:3000/districts/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjYzODc2NjM2fQ.i_QyGUsXCFD_L7_dMZHRUdu4zX7ljEcre2ZC0BfuY60
+
+
+
+###
+PUT http://localhost:3000/districts/3
+Content-Type: application/json
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+
+###
+PUT http://localhost:3000/districts/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjYzODc2NjM2fQ.i_QyGUsXCFD_L7_dMZHRUdu4zX7ljEcre2ZC0BfuY60
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+
+
+###
+GET http://localhost:3000/states/10/stats/
+
+###
+GET http://localhost:3000/states/10/stats/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjYzODc2NjM2fQ.i_QyGUsXCFD_L7_dMZHRUdu4zX7ljEcre2ZC0BfuY60
